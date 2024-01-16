@@ -74,7 +74,7 @@ After successful completion of this course, it helped me to...
 Technologies & Tools Used for the Course
 ----------------------------------------
 ```
-- TechStack Used - JavaScript, HTML, CSS & DOM (Document Object Model)
+- TechStack Used - JavaScript, HTML, CSS, BootStrap & DOM (Document Object Model)
 - Microsoft Visual Studio (Only Microsoft Windows)
 - Visual Studio Code (Mac OS & Microsoft Windows)
 - X Code (Apple's IDE - Mac OS)
