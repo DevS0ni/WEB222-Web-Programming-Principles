@@ -1,8 +1,6 @@
 # WEB222
 
-Welcome to Web Programming Principles. 
-
-## Code examples and resources
+Welcome to Web Programming Principles.
 
 ## Resources
 
