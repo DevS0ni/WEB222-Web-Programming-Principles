@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>Webbit</title>
+</head>
+
+<body>
+    <!-- <nav class="menu">
+        <a href="/">
+        <img height="100px"
+        src="images/webbit-logo.png">
+        <img height="40px"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Reddit_logo.svg/440px-Reddit_logo.svg.png">
+        </a>
+        <a href="#">Home</a>
+        >
+        <a href="#">About</a>
+        >
+        <a href="#">Posts</a>
+    </nav> -->
+    <div class="nav">
+        <div class="nav-logo">
+            <img height="50px" src="images/webbit-logo.png">
+            <!-- <img height="30px"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Reddit_logo.svg/440px-Reddit_logo.svg.png"> -->
+            <!-- <span class="span-logo">Webbit</span> -->
+            </a>
+            <!-- <p>webbit</p> -->
+        </div>
+        <!-- <div class="nav-search"> -->
+        <div class="search-box">
+            <input class="input-search" type="text" placeholder="Search here">
+            <button class="search-button">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+        <!-- </div> -->
+        <div class="nav-login">
+            <button type="submit" class="login-button">Login</button>
+        </div>
+    </div>
+    <hr>
+    <form method="POST" action="/addPost" id="post-form">
+        <div>
+            <label for="title">Title</label>
+            <input class="title-input" id="title" type="text" name="title">
+        </div>
+
+        <div>
+            <label for="textarea">Content</label>
+            <textarea class="textarea-input" id="textarea" name="textarea"></textarea>
+        </div>
+
+        <div>
+            <label for="upload">Upload</label>
+            <input id="upload" type="file" name="upload">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+<script src="./src.js"></script>
+
+
+</html>
