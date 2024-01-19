@@ -1,0 +1,184 @@
+/* Import Font Awesome */
+@import url(https://use.fontawesome.com/releases/v5.4.2/css/all.css);
+
+body {
+    background-color: #030303;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.card {
+    /* margin-top: 100px; */
+    background-color: #1A1A1B;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+
+.card:hover {
+    border: 1px solid white;
+}
+
+/* .container {
+    padding: 2px 16px;
+} */
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.votes {
+    height: 100px;
+    width: 100px;
+    /* A fixed width as the default */
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #161617;
+}
+
+.card-content {
+    flex-grow: 1;
+    /* Set the middle element to grow and stretch */
+}
+
+.upvote {
+    background-color: #4CAF50; /* Green */
+    width: 40px;
+    height: 40px;    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+.upvote:hover {
+    background-color: darkgreen; /* Green */
+    color: white;
+  }
+.downvote {
+    background-color: #ff0000; /* Green */
+    width: 40px;
+    height: 40px;    
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+}
+.downvote:hover {
+    background-color: darkred; /* Green */
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    vertical-align: middle;
+}
+.nav-logo {
+    text-align: center;
+    vertical-align: middle;
+}
+.nav-search {
+
+
+}
+.search-box {
+    /* background-color: #27272A;
+    padding: 20px; */
+    /* display: flex; */
+    max-width: 1000px;
+    /* flex: 1; */
+
+}
+.nav-login {
+
+}
+
+.input-search {
+    background-color: #27272A;
+    padding: 5px 20px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 100%;
+    border-radius: 50px;
+}
+
+.span-logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.search-button {
+
+}
+
+.login-button {
+    background-color: #D7DADC;
+    color: #27272A;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.create-button {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    width: 100px;
+
+}
+/* 
+input {
+    width: 100%;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #D7DADC;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 10px dotted orange;
+}
+
+.title-input {
+    margin: 10px;
+}
+
+.textarea-input {
+    padding: 10px;
+}
+
+.card-stack {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.single-card {
+    flex-basis: 25%;
+        background-color: #1A1A1B;
+        padding-bottom: 20px;
+        /* border: 1px white solid */
+}
